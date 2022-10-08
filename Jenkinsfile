@@ -8,7 +8,7 @@ pipeline {
 
                         steps {
 
-                                sh 'docker build -t try-pipeline'
+                                sh 'docker build -t try-pipeline .'
                         }
                 }
 
